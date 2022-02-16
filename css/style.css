@@ -292,6 +292,14 @@ hhv:hover {
 .Copright .myname{
     color: #d6ec0f;
 }
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
 /*--------------media---------*/
 @media (max-width: 491px) {
     /* .flex-grow-1{
@@ -299,6 +307,10 @@ hhv:hover {
     } */
     .ms-3 {
         margin-left: -2rem!important;
+    }
+    img {
+        width: 85%;
+        height: 61px;
     }
     .you{
         width: auto; 
